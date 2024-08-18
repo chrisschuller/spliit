@@ -82,7 +82,7 @@
     "CurrencyField": {
       "label": "Währungssymbol",
       "placeholder": "$, €, £…",
-      "description": "Wir benutzen es, um Beträge anzuzeigen."
+      "description": "Wir benutzen das Währungssymbol, um Beträge anzuzeigen."
     },
     "Participants": {
       "title": "Mitglieder",
@@ -96,12 +96,12 @@
     },
     "Settings": {
       "title": "Lokale Einstellungen",
-      "description": "Dies sind Einstellungen pro Gerät, die verwendet werden, um deine Nutzungsexperience zu verbessern.",
+      "description": "Eine Einstellung auf dem aktuell verwendeten Gerät, um deine Nutzungsexperience zu verbessern.",
       "ActiveUserField": {
-        "label": "Aktiver nutzer",
+        "label": "Aktiver Nutzer",
         "placeholder": "Wähle ein Mitglied",
         "none": "Keiner",
-        "description": "Standardnutzer, der die Ausgaben übernimmt."
+        "description": "Der aktuelle Nutzer"
       },
       "save": "Speichern",
       "saving": "Speichert…",
@@ -294,7 +294,7 @@
     "title": "Teilen",
     "description": "Teile die URL, damit andere Mitglieder die Gruppe sehen und Ausgaben hinzufügen können.",
     "warning": "Achtung!",
-    "warningHelp": "Jede person mit der Gruppen-URL kann Ausgaben sehen und editieren. Teile den Link mit Bedacht!"
+    "warningHelp": "Jede Person mit der Gruppen-URL kann Ausgaben sehen und editieren. Teile den Link mit Bedacht!"
   },
   "SchemaErrors": {
     "min1": "Gib mindestens ein Zeichen ein.",
