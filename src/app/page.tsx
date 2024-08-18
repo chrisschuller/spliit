@@ -15,7 +15,7 @@ export default function HomePage() {
             & <strong>Familie</strong>
           </h1>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            Erstellt Gruppen uns seht, wer wem wie viel schuldet.
+            Erstellt Gruppen und seht, wer wem wie viel schuldet.
             <br />
           </p>
           <div className="flex gap-2">
