@@ -73,10 +73,10 @@ function Content({ children }: { children: React.ReactNode }) {
         >
           <h1>
             <Image
-              src="/logo-with-text.png"
+              src="/split_logo_text_transparent.png"
               className="m-1 h-auto w-auto"
-              width={(35 * 522) / 180}
-              height={35}
+              width={50}
+              height={50}
               alt="Spliit"
             />
           </h1>
@@ -110,13 +110,14 @@ function Content({ children }: { children: React.ReactNode }) {
           <div className="sm:text-lg font-semibold text-base flex space-x-2 items-center">
             <Link className="flex items-center gap-2" href="/">
               <Image
-                src="/logo-with-text.png"
-                className="m-1 h-auto w-auto"
-                width={(35 * 522) / 180}
-                height={35}
+                src="/split_logo_transparent.png"
+                className=" h-auto w-auto"
+                width={30}
+                height={30}
                 alt="Spliit"
               />
             </Link>
+            <span>Split - Teile Ausgaben</span>
           </div>
           <div className="flex flex-col space-y a--no-underline-text-white">
             <span>{t('Footer.madeIn')}</span>
