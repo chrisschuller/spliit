@@ -11,18 +11,19 @@ export default function HomePage() {
       <section className="py-16 md:py-24 lg:py-32">
         <div className="container flex max-w-screen-md flex-col items-center gap-4 text-center">
           <h1 className="!leading-none font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl landing-header py-2">
-            Teile <strong>Ausgaben</strong> <br /> mit <strong>Freunden</strong>
+            Teilt <strong>Ausgaben</strong> <br /> mit <strong>Freunden</strong>{' '}
+            & <strong>Familie</strong>
           </h1>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            Hier könnt ihr eure Augaben in <strong>Vieste</strong> teilen!{' '}
+            Erstellt Gruppen uns seht, wer wem wie viel schuldet.
             <br />
           </p>
           <div className="flex gap-2">
             <Button asChild>
-              <Link href="/groups">Legt hier los!</Link>
+              <Link href="/groups">Loslegen</Link>
             </Button>
             <Button asChild variant="secondary">
-              <Link href="https://github.com/spliit-app/spliit">
+              <Link href="https://github.com/chrisschuller/spliit">
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </Link>
