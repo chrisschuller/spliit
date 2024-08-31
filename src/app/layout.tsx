@@ -17,16 +17,16 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_BASE_URL),
   title: {
-    default: 'Spliit · Share Expenses with Friends & Family',
-    template: '%s · Spliit',
+    default: 'Split · Share Expenses with Friends & Family',
+    template: '%s · Split',
   },
   description:
-    'Spliit is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
+    'Split is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
   openGraph: {
-    title: 'Spliit · Share Expenses with Friends & Family',
+    title: 'Split · Share Expenses with Friends & Family',
     description:
-      'Spliit is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
-    images: `/banner.png`,
+      'Split is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
+    // images: `/banner.png`,
     type: 'website',
     url: '/',
   },
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     creator: '@scastiel',
     site: '@scastiel',
-    images: `/banner.png`,
-    title: 'Spliit · Share Expenses with Friends & Family',
+    // images: `/banner.png`,
+    title: 'Split · Share Expenses with Friends & Family',
     description:
-      'Spliit is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
+      'Split is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
   },
   appleWebApp: {
     capable: true,
-    title: 'Spliit',
+    title: 'Split',
   },
-  applicationName: 'Spliit',
+  applicationName: 'Split',
   icons: [
     {
       url: '/android-chrome-192x192.png',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#047857',
+  themeColor: '#893ECB',
 }
 
 function Content({ children }: { children: React.ReactNode }) {
@@ -77,7 +77,7 @@ function Content({ children }: { children: React.ReactNode }) {
               className="m-1 h-auto w-auto"
               width={50}
               height={50}
-              alt="Spliit"
+              alt="Split"
             />
           </h1>
         </Link>
@@ -114,7 +114,7 @@ function Content({ children }: { children: React.ReactNode }) {
                 className=" h-auto w-auto"
                 width={30}
                 height={30}
-                alt="Spliit"
+                alt="Split"
               />
             </Link>
             <span>Split - Teile Ausgaben</span>
@@ -156,7 +156,7 @@ export default async function RootLayout({
   const messages = await getMessages()
   return (
     <html lang={locale} suppressHydrationWarning>
-      <ApplePwaSplash icon="/logo-with-text.png" color="#027756" />
+      <ApplePwaSplash icon="/logo-with-text.png" color="#893ECB" />
       <body className="pt-16 min-h-[100dvh] flex flex-col items-stretch bg-slate-50 bg-opacity-30 dark:bg-background">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
