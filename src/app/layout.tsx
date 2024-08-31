@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: 'Split · Share Expenses with Friends & Family',
     description:
       'Split is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
-    // images: `/banner.png`,
+    images: `/split_logo_transparent.png`,
     type: 'website',
     url: '/',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     creator: '@scastiel',
     site: '@scastiel',
-    // images: `/banner.png`,
+    images: `/split_logo_transparent.png`,
     title: 'Split · Share Expenses with Friends & Family',
     description:
       'Split is a minimalist web application to share expenses with friends and family. No ads, no account, no problem.',
